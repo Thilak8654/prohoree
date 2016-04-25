@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="ThemeBucket">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Prohoree Portal</title>
+    <!--Core CSS -->
+    <link href="../bs3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../js/jquery-ui/jquery-ui-1.10.1.custom.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/acuser.css">
+    <link href="../font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../css/clndr.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet">
+
+      <link href="../css/style-responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style_select.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href="../js/c3-chart/c3.css" rel="stylesheet" />
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <section id="container">
+        <!--header start-->
+        <header class="header fixed-top clearfix">
+            <!--logo start-->
+            <div class="brand col-md-4">
+                <a href="index.html" class="logo">
+                    <span>PROHOREE</span>
+                </a>
+            </div>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                <!--  notification start -->
+                <ul class="nav top-menu">
+                    <li style="margin-right:30px;">
+                        <div class="sidebar-toggle-box hidden-xs">
+                            <div class="fa fa-caret-left"></div>
+                            <i class="fa fa-tasks" style="font-size: 20px;"></i>
+                        </div>
+                        <div class="sidebar-toggle-box1 hidden-xs">
+                            <i class="fa fa-tasks" style="font-size: 20px;"></i>
+                            <div class="fa fa-caret-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="search" class="form-control" style="padding-left: 5px;border-radius: 79px;width: 245px;font-size: 16px;" results="6">
+                    </li>
+                </ul>
+                <!--  notification end -->
+            </div>
+            <div class="top-nav clearfix">
+                <!--search & user info start-->
+                <ul class="nav pull-right top-menu">
+                    <!-- user login dropdown start-->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#" style="padding-top: 0px;background: none;border: none;">
+                            <img alt="" src="../images/user.png" style="width: 40px;height: 40px;">
+                            <span class="username">Ashadul Islam</span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
+                            <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                            <li><a href="#"><i class="fa fa-key"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--search & user info end-->
+            </div>
+        </header>
+        <!--header end-->
+          <!--sidebar start-->
+        <aside>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="fa fa-bars"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div id="sidebar" class="nav-collapse">
+                    <div id="closeDiv" style="z-index:111;" class="hidden-xs">
+                        <i class="fa fa-arrow-right" aria-hidden="true" id="open"></i>
+                    </div>
+                   <!-- sidebar menu start-->
+                    <div class="leftside-navigation">
+                        <ul class="sidebar-menu" id="nav-accordion">
+                            <li style="position:relative;">
+                                <a href="../index.html">
+                                    <i class="fa fa-dashboard"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="live_track.html">
+                                    <i class="fa fa-dashboard"></i>
+                                    <span>LIVE TRACKING</span>
+                                </a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="travel_history.html">
+                                    <i class="fa fa-book"></i>
+                                    <span>Travel History</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a  href="ac_uses.html">
+                                    <i class="fa fa-bullhorn"></i>
+                                    <span>Ac Uses </span>
+                                </a>
+                            </li>
+                            <li class="sub-menu">
+                                <a class="active" href="speed_violation.html">
+                                    <i class="fa fa-tasks"></i>
+                                    <span>SPEED VIOLATION</span>
+                                </a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="speed_report.html">
+                                    <i class="fa fa-envelope"></i>
+                                    <span>SPEED REPORT </span>
+                                </a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="geo_violation.html">
+                                    <i class=" fa fa-bar-chart-o"></i>
+                                    <span>GEO VIOLATION</span>
+                                </a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="my_organisation.html">
+                                    <i class=" fa fa-bar-chart-o"></i>
+                                    <span>MY ORGANIZATION</span>
+                                </a>
+                            </li>
+                            <li class="sub-menu">
+                                <a href="my_group.html">
+                                    <i class="fa fa-glass"></i>
+                                    <span>MY GROUP</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="my_device.html">
+                                    <i class="fa fa-user"></i>
+                                    <span>MY DEVICE</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="geo_fence.html">
+                                    <i class="fa fa-user"></i>
+                                    <span>MY GEO-FENCE</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- sidebar menu end-->
+                </div>
+            </div>
+            <div id="sidebar12" class="nav-collapse">
+                <div id="closeDiv" class="hidden-xs">
+                    <i class="fa fa-arrow-left" aria-hidden="true" id="close"></i>
+                </div>
+                <!-- sidebar menu start-->
+                <div class="leftside-navigation">
+                    <ul class="sidebar-menu" id="hideSideBar">
+                        <li class="firstList">
+                            <a id="click1">
+                                <i class="fa fa-dashboard"></i>
+                            </a>
+                        </li>
+                        <li class="secList">
+                            <a>
+                                <i class="fa fa-book"></i>
+                            </a>
+                        </li>
+                        <li class="thirdList">
+                            <a>
+                                <i class="fa fa-bullhorn"></i>
+                            </a>
+                        </li>
+                        <li class="fourthList">
+                            <a class="active">
+                                <i class="fa fa-tasks"></i>
+                            </a>
+                        </li>
+                        <li class="fifthList">
+                            <a>
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li class="sixthList">
+                            <a>
+                                <i class=" fa fa-bar-chart-o"></i>
+                            </a>
+                        </li>
+                        <li class="seventhList">
+                            <a>
+                                <i class=" fa fa-bar-chart-o"></i>
+                            </a>
+                        </li>
+                        <li class="eightList">
+                            <a>
+                                <i class="fa fa-glass"></i>
+                            </a>
+                        </li>
+                        <li class="ninList">
+                            <a>
+                                <i class="fa fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="tenList">
+                            <a>
+                                <i class="fa fa-user"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="test">
+                        <ul class="dropdown-menu extended sidebarOptions">
+                            <li id="firstSubList"><a><i class=" fa fa-key"></i>Bashundhara Texttile <i class="caret"></i></a></li>
+                            <li id="groups">
+                                <ul id="groupMain">
+                                    <li id="new1">New Group 01 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="firstGroupSub">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new2">New Group 02 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="secGroupSub">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new3">New Group 03 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="thirdGroupSub">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new4">New Group 04 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="fourthGroupSub">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="seccondSubList"><a><i class="fa fa-key"></i> Bashundhara Texttile <i class="caret"></i></a></li>
+                            <li id="groups1">
+                                <ul id="groupMain">
+                                    <li id="new11">New Group 01 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="firstGroupSub1">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new21">New Group 02 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="secGroupSub1">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new31">New Group 03 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="thirdGroupSub1">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new41">New Group 04 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="fourthGroupSub1">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="ThirdSubList"><a><i class="fa fa-key"></i> Bashundhara Texttile <i class="caret"></i></a></li>
+                            <li id="groups2">
+                                <ul id="groupMain">
+                                    <li id="new12">New Group 01 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="firstGroupSub2">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new22">New Group 02 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="secGroupSub2">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new32">New Group 03 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="thirdGroupSub2">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new42">New Group 04 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="fourthGroupSub2">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="test1">
+                        <ul class="dropdown-menu extended sidebarOptions">
+                            <li id="firstSubList20"><a><i class=" fa fa-key"></i>Bashundhara Texttile <i class="caret"></i></a></li>
+                            <li id="groups20">
+                                <ul id="groupMain">
+                                    <li id="new20">New Group 01 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="firstGroupSub20">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new25681">New Group 02 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="secGroupSub21">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new2552">New Group 03 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="thirdGroupSub22">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new23">New Group 04 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="fourthGroupSub23">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="seccondSubList20"><a><i class="fa fa-key"></i> Bashundhara Texttile <i class="caret"></i></a></li>
+                            <li id="groups21">
+                                <ul id="groupMain">
+                                    <li id="new201">New Group 01 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="firstGroupSub200">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new202">New Group 02 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="secGroupSub200">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new203">New Group 03 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="thirdGroupSub200">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new204">New Group 04 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="fourthGroupSub200">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="ThirdSubList20"><a><i class="fa fa-key"></i> Bashundhara Texttile <i class="caret"></i></a></li>
+                            <li id="groups22">
+                                <ul id="groupMain">
+                                    <li id="new1252">New Group 01 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="firstGroupSub2252">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new2252">New Group 02 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="secGroupSub2252">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new3252">New Group 03 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="thirdGroupSub2252">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="new4252">New Group 04 <i class="caret"></i></li>
+                                    <li style="padding-top:0px;" id="fourthGroupSub2252">
+                                        <ul class="group1Sub">
+                                            <li><a href="../index.html">Bashundhara Texi 01</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 02</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 03</a></li>
+                                            <li><a href="../index.html">Bashundhara Texi 04</a></li>
+                                            <li><a href="../index.htm">Bashundhara Texi 05</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <!-- sidebar menu end-->
+            </div>
+        </aside>
+          <!--main content start-->
+        <section id="main-content">
+            <section class="wrapper">
+
+             </section>
+    </section>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
+    <script src="../bs3/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/jquery.nice-select.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="../js/c3-chart/c3.js"></script>
+    <script src="../js/c3-chart.init.js"></script>
+    <script src="../js/CircularLoader-v1.2.js"></script>
+    <script src="../js/radial-progress-bar.js"></script>
+    <!--script for this page-->
+</body>
+
+</html>

@@ -1,0 +1,599 @@
+.tabHead li {
+    float: right !important;
+}
+
+div#sidebar12 {
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    background: #2c4063;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    display: none;
+    overflow: auto;
+}
+
+ul#hideSideBar {
+    width: 65px;
+    background: #293b5a;
+    float: left;
+}
+.test {
+    height: auto;
+    width: 230px;
+    float: right;
+    display: none;
+    margin-top: 115px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.test ul {
+    position: relative !important;
+    width: 100% !important;
+    display: block;
+    top: 0px !important;
+    left: 0px !important;
+    margin: 0px;
+    max-width: 100% !important;
+    min-width: 100% !important;
+}
+
+.test ul li a {
+    padding: 21px 15px;
+    font-family: Roboto-Regular;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+.test1 {
+    height: auto;
+    width: 230px;
+    float: right;
+    display: none;
+    margin-top: 115px;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.test1 ul {
+    position: relative !important;
+    width: 100% !important;
+    display: block;
+    top: 0px !important;
+    left: 0px !important;
+    margin: 0px;
+    max-width: 100% !important;
+    min-width: 100% !important;
+}
+
+.test1 ul li a {
+    padding: 21px 15px;
+    font-family: Roboto-Regular;
+    font-size: 14px !important;
+    cursor: pointer;
+}
+
+ul.dropdown-menu.extended.sidebarOptions {
+    position: absolute;
+    top: 73px;
+    background: none;
+    left: 60px;
+    width: 230px !important;
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: 0px 0px 0px !important;
+    padding: 0px !important;
+}
+
+ul.dropdown-menu.extended.sidebarOptions li a {
+    background: none;
+    border: 0px !important;
+    color: #7b96c4;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+}
+
+ul.dropdown-menu.extended.sidebarOptions li a:hover {
+    color: #03a9f4;
+}
+
+
+
+ul#groupMain {
+    list-style-type: none;
+}
+
+li#groups {
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    display: none;
+}
+li#groups1 {
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    display: none;
+}
+li#groups2 {
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    display: none;
+}
+
+ul.group1Sub {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul.group1Sub li a {
+    padding-left: 0px;
+    opacity: 0.5;
+    padding: 0px 15px;
+}
+
+ul.group1Sub li a:hover {
+    opacity: 1;
+}
+
+ul.group1Sub li {
+    padding: 10px 0px !important;
+}
+
+li#firstGroupSub {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#secGroupSub {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#thirdGroupSub {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#fourthGroupSub {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#firstGroupSub1 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#secGroupSub1 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#thirdGroupSub1 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#fourthGroupSub1 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#firstGroupSub2 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#secGroupSub2 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#thirdGroupSub2 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#fourthGroupSub2 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#firstGroupSub20 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#secGroupSub21 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#thirdGroupSub22 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#fourthGroupSub23 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#firstGroupSub200 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#secGroupSub200 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#thirdGroupSub200 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+li#groups21 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#groups22 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#groups20 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#fourthGroupSub200 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#firstGroupSub2252 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#secGroupSub2252 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+li#thirdGroupSub2252 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+.table-responisve {
+    overflow-x: auto;
+}
+li#fourthGroupSub2252 {
+    display: none;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+
+ul#groupMain li {
+    background: none;
+    border: 0px !important;
+    color: #7b96c4;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+ul#hideSideBar li {
+    border: none;
+}
+
+ul#hideSideBar li a {
+    padding-left: 18px;
+}
+
+ul#hideSideBar li a.active {
+    border-left: 5px solid #29b6f6;
+}
+
+ul#hideSideBar li a:hover {
+    border-left: 5px solid #29b6f6;
+}
+
+.tabHead p {
+    width: 200px;
+    float: left;
+    padding: 10px 10px 0px;
+}
+
+.tabHead {
+    background: #ffffff !important;
+}
+
+table,
+th,
+td {
+    border: 1px solid #e5e8ef;
+    border-collapse: collapse;
+    background: white;
+}
+
+.summary {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.summary span {
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    color: #555555;
+}
+
+#rank {
+    background: #6cd0fe;
+    padding-top: 25px !important;
+    padding-bottom: 17px !important;
+    margin-bottom: 45px;
+}
+
+span.mi {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #0e1a35;
+}
+
+span.hr {
+    background: #6c40e8;
+    font-family: Roboto-Light;
+    font-size: 16px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+span.hr2 {
+    background: #eff1f5;
+    padding: 5px 10px;
+    font-family: Roboto-Light;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+span.hr3 {
+    font-size: 16px;
+    font-family: Roboto-Light;
+}
+
+span.slnum {
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #0e1a35;
+    text-transform: uppercase;
+}
+
+th,
+td {
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto-Regular;
+}
+
+tr#head td {
+    font-size: 20px;
+    font-family: Roboto-Medium;
+    color: #37474f;
+}
+
+.tab1head {
+    color: #37474f;
+    font-size: 20px !important;
+    text-align: center !important;
+    font-family: Roboto-Medium;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.nav-tabs>li {
+    float: right;
+}
+
+.nav-tabs>li {
+    float: right;
+    border: 1px solid #e5e8ef;
+    text-align: center;
+}
+
+.nav-tabs>li a {
+    color: #32323A;
+    height: 65px;
+    padding: 0;
+    width: 125px;
+    font-family: Roboto-Light;
+    font-size: 20px;
+    line-height: 3;
+}
+
+.nice-select.acUsage {
+    width: 100px;
+    float: right;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-tabs>li>a:hover {
+    border: none !important;
+    background: white;
+    color: #01b95b;
+    font-family: inherit;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    border: none !important;
+    background: white;
+    color: #01b95b;
+    font-family: inherit;
+}
+
+.bottomBtn {
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.btnprint {
+    background: #29b6f6;
+    color: #ffffff;
+    width: 98px;
+    height: 30px;
+    border: none;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.btnexcel {
+    background: #01b95b;
+    color: #ffffff;
+    width: 98px;
+    height: 30px;
+    border: none;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+}
+@media screen and (min-width: 767px) and (max-width: 1200px){
+    #rank {
+    padding-bottom: 100px !important;
+}
+.nice-select.acUsage {
+ 
+    margin-bottom: 13px;
+}
+span.hr2 {
+
+    padding: 5px 10px !important;
+  
+    font-size: 11px;
+
+}
+span.hr {
+    
+    font-size: 14px;
+   
+    padding: 5px 15px !important;
+    
+}
+span.slnum {
+  
+    font-size: 12px;
+    
+}
+span.hr3 {
+    font-size: 12px;
+   
+}
+}
+@media screen and (max-width: 767px){
+    #alignmob{
+        margin-top: 20px;
+    }
+    span.hr {
+    
+    font-size: 14px;
+
+    
+}
+span.hr2 {
+
+    padding: 5px 10px !important;
+  
+    font-size: 12px;
+
+    
+}
